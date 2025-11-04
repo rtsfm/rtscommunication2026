@@ -101,47 +101,14 @@ body {
     color: var(--color-dark-gray);
 }
 
-.preview-text {
-    margin-bottom: 15px;
-    font-size: 16px;
-}
-
-.full-text {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease;
-}
-
-.full-text.active {
-    max-height: 2000px;
-}
-
-.full-text p {
+.about-text p {
     margin-bottom: 15px;
     font-size: 15px;
 }
 
-.full-text strong {
+.about-text strong {
     color: var(--color-anthracite);
     font-weight: 600;
-}
-
-.btn-toggle {
-    background-color: var(--color-anthracite);
-    color: var(--color-white);
-    border: none;
-    padding: 12px 30px;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 15px;
-    font-family: var(--font-main);
-}
-
-.btn-toggle:hover {
-    background-color: var(--color-dark-gray);
 }
 
 .expertise-grid {
